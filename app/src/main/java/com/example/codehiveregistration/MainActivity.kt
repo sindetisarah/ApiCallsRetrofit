@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
 
         btnRegister.setOnClickListener {
             if (etName.text.toString().isEmpty() || etDob.text.toString()
-                    .isEmpty() || etEmail.text.toString().isEmpty() || etpassword.text.toString()
-                    .isEmpty() || etphone.text.toString().isEmpty()
+                    .isEmpty() || etEmail.text.toString().isEmpty() || etPassword.text.toString()
+                    .isEmpty() || etPhone.text.toString().isEmpty()
             ) {
                 etName.setError("Please input name")
                 etDob.setError("Please input Date of Birth")
